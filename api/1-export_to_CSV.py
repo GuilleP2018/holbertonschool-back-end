@@ -3,9 +3,10 @@
     data gathering from api module
     and exporting to a csv file
 """
+import csv
 import requests
 import sys
-import csv
+
 
 # python3 0-gather_data_from_an_API.py 2 is the run command where two is the id
 employee_id = sys.argv[1]

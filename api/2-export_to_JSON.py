@@ -2,9 +2,10 @@
 """
     data gathering from api module
 """
+import json
 import requests
 import sys
-import json
+
 
 # python3 0-gather_data_from_an_API.py 2 is the run command where two is the id
 employee_id = sys.argv[1]
